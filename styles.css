@@ -1,11 +1,39 @@
 body {
-    background-color: teal;
-    color: white;
-    font-family: sans-serif;
+    background-color: 	#ffffe1;
+    font-family:'Montserrat', sans-serif;
+    margin:0;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
-    margin: auto;
-    width: 600px;
     text-align: center;
+    width: 60%;
+}
+
+.about {
+    background-color: #2e6b61;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.profilepic {
+    height: 100%;
+    width: 100%;
+}
+
+.text {
+    padding: 20px;
+}
+
+.flex-child {
+    flex: 1;
 }
