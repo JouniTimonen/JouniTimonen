@@ -1,6 +1,6 @@
 body {
-    background-color: 	#ffffe1;
-    font-family:'Montserrat', sans-serif;
+    background-color: 	#1D291F;
+    font-family:'Inter', sans-serif;
     margin:0;
 }
 
@@ -16,24 +16,55 @@ body {
     width: 60%;
 }
 
-.about {
-    background-color: #2e6b61;
-    color: white;
+#logotext {
+    color: #DCEFD9;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 200px;
+    color: #96D28A;
+    font-weight: 700;
+}
+
+#aboutbox {
+    width: 1200px;
+    height: 550px;
+    border: #96D28A 1px solid;
+    border-radius: 50px;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 100%;
+    justify-content: space-between;
 }
 
-.profilepic {
-    height: 100%;
-    width: 100%;
+#ProfilePicture {
+    width: 450px;
+    height: 450px;
+    border-radius: 50px;
+    margin-left: 100px;
 }
 
-.text {
-    padding: 20px;
+#aboutright {
+    width: 450px;
+    height: 450px;
+    margin-right: 100px;
 }
 
-.flex-child {
-    flex: 1;
+#aboutheader {
+    color: white;
+    margin: 0;
+}
+
+#abouttext {
+    color: #DCEFD9;
+}
+
+#icons {
+    margin: 0 auto;
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+    color: #DCEFD9;
 }
