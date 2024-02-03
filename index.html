@@ -12,18 +12,28 @@
         <script src="https://kit.fontawesome.com/409d5036fc.js" crossorigin="anonymous"></script>
     </head>
     <body>
-    <section class="hero">
+    <nav>
+        <div class="nav-left">
+            <a>FI/EN</a>
+        </div>
+        <div class="nav-right">
+            <a href="#about">ABOUT</a>
+            <a href="#work">WORK</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+    </nav>
+    <section id="hero">
         <div class="container">
             <img id="logo" src="images/LogoTekstilläGreen.svg">
             <h2 id="logotext">Frontend Developer</h2>
         </div>
     </section>
-    <section class="about">
+    <section id="about">
         <h1>WHY ME?</h1>
         <div id="aboutbox">
             <img id="ProfilePicture" src="images/20230511_194845 (3).jpg" alt="ProfilePicture">
             <div id="aboutright">
-                <h2 id="aboutheader">Ongoing learning to help you make your clients happy</h2>
+                <h2 id="aboutheader">Ongoing learning to help you make your <span>clients happy</span></h2>
                 <p id="abouttext">Hei, olen Pohkois-karjalasta kotoisin oleva 26-vuotias Tieto- ja viestintätekniikan opiskelija. Opiskelin Ristiinan lukiossa kolme vuotta ja aloitin opinnot JAMK:in Tieto- ja viestintätekniikan linjalla vuoden 2017 keväällä.</p>
             </div>
         </div>
@@ -38,11 +48,42 @@
             <img src="images/icons8-wordpress-70 (1).png">
         </div>
     </section>
-    <section class="work">
-
+    <section id="work">
+        <h1>WHAT FOR?</h1>
+        <div id="work-content">
+            <div id="card1">
+                <h2>Project 1</h2>
+                <img src="images/visitjkl.PNG">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin magna massa, viverra eu tincidunt vitae, laoreet eu lacus. Cras ut leo velit. Ut dapibus mauris at velit blandit, id rutrum dolor rutrum.</p>
+            </div>
+            <div id="card2">
+                <h2>Project 2</h2>
+                <img src="images/visitjkl.PNG">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin magna massa, viverra eu tincidunt vitae, laoreet eu lacus. Cras ut leo velit. Ut dapibus mauris at velit blandit, id rutrum dolor rutrum.</p>
+            </div>
+            <div id="card3">
+                <h2>Project 3</h2>
+                <img src="images/visitjkl.PNG">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin magna massa, viverra eu tincidunt vitae, laoreet eu lacus. Cras ut leo velit. Ut dapibus mauris at velit blandit, id rutrum dolor rutrum.</p>
+            </div>
+        </div>
     </section>
-    <section class="contact">
-
+    <section id="contact">
+        <h1>FOR WHO?</h1>
+        <div id="contactBox">
+            <form>
+                <div id="top-contact">
+                    <label for="name"><input id="name" name="Name" type="text" placeholder="Name*" required></label>
+                    <label for="email"><input id="email" name="Email" type="email" placeholder="Email*" required></label>
+                </div>
+                <div id="bottom-contct">
+                    <label for="phone"><input id="phone" name="Phone" type="tel" placeholder="Phone"></label>
+                <label for="subject"><input id="subject" name="Subject" type="text" placeholder="Subject*" required></label>
+                </div>
+                <label for="message"><textarea id="message" name="Message" placeholder="Your message*" rows="10" required></textarea></label>
+                <input id="submit" type="submit" value="SEND MESSAGE">
+            </form>
+        </div>
     </section>
     </body>
 </html>
